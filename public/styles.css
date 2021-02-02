@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #679b9b;
+  background-image: url("cubes.png");
+  font-family: "Zilla Slab";
+  font-size: 1rem;
+}
+
+footer {
+  bottom: 0;
+  color: #637373;
+  height: 2.5rem;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: -1;
+}
+
+.header {
+  background-color: #637373;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  color: #ffeadb;
+  font-size: 1.8rem;
+  padding: 5px 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.header h1 {
+  text-shadow: 1px 1px 2px #09475e;
+}
+
+img {
+  height: 40px;
+  margin-left: 145px;
+  margin-top: 20px;
+  position: absolute;
+  width: 40px;
+}
+
+form.note-area {
+  background: #ffeadb;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  margin: 30px auto 20px auto;
+  padding: 15px;
+  position: relative;
+  width: 480px;
+}
+
+form.note-area input,
+form.note-area textarea {
+  background-color: #ffeadb;
+  border: none;
+  color: #09475e;
+  font-size: 1.2em;
+  font-family: "Zilla Slab";
+  outline: none;
+  padding: 4px;
+  resize: none;
+  width: 100%;
+}
+
+form.note-area button {
+  background: #ffb454;
+  bottom: -18px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  cursor: pointer;
+  height: 36px;
+  outline: none;
+  position: absolute;
+  right: 18px;
+  width: 36px;
+}
+
+form.note-area button:hover {
+  background-color: #ff9a76;
+  color: #637373;
+}
+
+.note {
+  background: #ffeadb;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px#637373;
+  float: left;
+  margin: 16px;
+  padding: 10px;
+  width: 280px;
+}
+.note h1 {
+  color: #09475e;
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  color: #637373;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  background-color: #637373;
+  border: none;
+  border-radius: 50%;
+  color: #ff9a76;
+  cursor: pointer;
+  float: right;
+  height: 36px;
+  margin: -5px auto auto 17%;
+  outline: none;
+  position: absolute;
+  width: 36px;
+}
+.note button:hover {
+  background-color: #ff9a76;
+  color: #637373;
+}
